@@ -1,0 +1,26 @@
+# ── 密钥：绝不提交 ──
+.streamlit/secrets.toml
+
+# ── Python ──
+__pycache__/
+*.py[cod]
+tests/__pycache__/
+.pytest_cache/
+
+# ── 运行产物与本地数据 ──
+data/
+output/
+tmp/
+.contextguard/
+.playwright-cli/
+
+# ── 本地工具配置 ──
+.claude/
+
+# ── 测试资料与大文件 ──
+*.rar
+*.zip
+*.webm
+*.pdf
+*.db
+生化培养箱与移液器/
